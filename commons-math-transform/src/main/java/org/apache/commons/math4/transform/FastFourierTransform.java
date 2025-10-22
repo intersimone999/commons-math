@@ -346,7 +346,6 @@ public class FastFourierTransform implements ComplexTransform {
             final double scaleFactor = 1d / Math.sqrt(n);
             for (int i = 0; i < n; i++) {
                 dataR[i] *= scaleFactor;
-                dataI[i] *= scaleFactor;
             }
 
             break;
